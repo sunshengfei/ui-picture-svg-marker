@@ -1,0 +1,36 @@
+{
+  "name": "ui-picture-svg-marker",
+  "version": "0.0.1-beta",
+  "description": "高仿百度AI图像物体检测标注控件,ui-picture-bd-marker SVG版",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src/ -d lib/",
+    "test": "snyk test"
+  },
+  "keywords": [
+    "marker",
+    "AI工具",
+    "图像画框",
+    "标签",
+    "标注"
+  ],
+  "author": "freddon",
+  "email": "gsiner@live.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "snyk": "^1.91.0"
+  },
+  "dependencies": {
+    "aha-graphic": "0.0.2",
+    "aha-svg": "^0.0.5",
+    "core-js": "^3.6.4",
+    "ui-picture-bd-marker": "^2.3.0"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "styles"
+  ]
+}
